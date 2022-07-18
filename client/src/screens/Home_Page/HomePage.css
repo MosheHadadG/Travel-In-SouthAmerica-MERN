@@ -1,0 +1,28 @@
+.main-home-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  top: 40%;
+}
+
+.desc-home-page {
+  width: 42%;
+  color: #f4f4f4;
+  animation: BoxAnimation 1s forwards;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px black;
+  line-height: 1.5;
+
+}
+
+@keyframes BoxAnimation {
+  from {
+      transform: translateY(0);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(-15px);
+  }
+}
+

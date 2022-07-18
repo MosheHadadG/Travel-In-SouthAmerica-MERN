@@ -1,0 +1,11 @@
+@media (max-width: 1250px) {
+  .destination-page-main {
+    width: 87%;
+  }
+}
+
+@media (max-width: 800px) {
+  .destination-boxes-likes-to-know {
+   gap: 5px;
+  }
+}

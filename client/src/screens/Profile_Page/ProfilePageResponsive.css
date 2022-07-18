@@ -1,0 +1,19 @@
+@media(max-width: 1250px) {
+  .profile-page-main {
+    width: 80%;
+  }
+}
+
+@media(max-width: 850px) {
+  .profile-edit-button, .send-msg-button {
+    height: 100%;
+    padding: 10px;
+    transform: unset;
+  }
+}
+
+@media(max-width: 600px) {
+  .profile-page-main {
+    width: 90%;
+  }
+}

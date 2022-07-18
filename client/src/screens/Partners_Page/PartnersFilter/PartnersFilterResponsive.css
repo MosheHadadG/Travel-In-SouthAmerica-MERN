@@ -1,0 +1,9 @@
+@media (max-width: 650px) {
+  .ui.menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+}
+

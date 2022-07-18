@@ -1,0 +1,25 @@
+@media (max-width: 1005px) {
+  .main-home-page {
+    top: 30%;
+  }
+  .desc-home-page {
+    width: 70%;
+  }
+  .desc-home-page h1{
+    font-size: 2rem;
+  }
+
+  .desc-home-page p{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .desc-home-page h1{
+    font-size: 1.8rem;
+  }
+
+  .desc-home-page p{
+    font-size: 1.2rem;
+  }
+}

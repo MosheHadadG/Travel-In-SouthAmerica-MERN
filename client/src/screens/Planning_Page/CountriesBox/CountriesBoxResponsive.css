@@ -1,0 +1,29 @@
+@media(max-width: 1200px) {
+  .countries-box {
+    width: 80%;
+  }
+
+}
+
+@media(max-width: 670px) {
+  .list-country button {
+    width: 85%;
+   
+  }
+
+}
+
+@media(max-width: 575px) {
+  .list-country button {
+    width: 90%;
+   
+  }
+
+}
+@media(max-width: 470px) {
+  .list-country button {
+    width: 95%;
+   
+  }
+
+}

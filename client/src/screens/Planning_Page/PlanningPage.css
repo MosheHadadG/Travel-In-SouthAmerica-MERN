@@ -1,0 +1,41 @@
+.planning-trip-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.planning-instructions{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 36%;
+}
+.planning-trip-page-container h4 {
+  margin: 0;
+
+}
+
+.planning-boards {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+}
+
+.list-countries {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.planning-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  gap:30px;
+}

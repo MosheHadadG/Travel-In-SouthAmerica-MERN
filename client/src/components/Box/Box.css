@@ -1,0 +1,14 @@
+.card-container {
+  width: 160px;
+  height: 100%;
+  text-align: center;
+}
+
+.card-icon, .card-title {
+  font-size: 1.3rem;
+}
+
+.card-description span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}

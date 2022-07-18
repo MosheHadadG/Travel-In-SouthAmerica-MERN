@@ -1,0 +1,10 @@
+.board-trip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  width: 80%;
+  /* height: 100%; */
+  margin-left: 50px;
+  margin-top: 50px;
+}
+

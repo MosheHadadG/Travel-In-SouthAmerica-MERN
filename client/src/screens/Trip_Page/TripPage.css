@@ -1,0 +1,40 @@
+.trip-page-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 50px;
+  
+}
+
+.trip-page-board {
+  background: url(../../images/backgrounds/background-trip-page.jpg) center center/contain;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.trip-page-info {
+  width: 100%;
+  height: 100%;
+}
+
+.trip-page-boxes-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  
+}
+
+.trip-page-boxes-info span{
+  font-size: 1.3rem;
+
+}

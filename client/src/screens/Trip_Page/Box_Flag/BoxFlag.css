@@ -1,0 +1,60 @@
+.box-flag {
+  display: flex;
+  width: 82%;
+  height: 90px;
+  margin-bottom: 50px;
+  gap: 15px;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+.box-flag-img {
+  width: 60%;
+  height: 100%;
+}
+
+.box-flag-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-flag-title {
+  width: 2%;
+  height: 100%;
+  font-size: .67rem;
+}
+
+.box-dashed-route-line {
+  width:40%;
+  height: 100%;
+}
+
+.box-dashed-route-line img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

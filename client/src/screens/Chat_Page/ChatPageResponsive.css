@@ -1,0 +1,25 @@
+@media (max-width: 1250px ) {
+  .chats-page-main {
+    margin-bottom: 250px;
+  }
+  .chat-message-input {
+    margin-bottom: 150px;
+
+  }
+
+}
+
+@media (max-width: 940px ) {
+  .chats-page-main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .chat-menu {
+    width: 100%;
+  } 
+  .chat-box {
+    width: 100%;
+  }
+
+}

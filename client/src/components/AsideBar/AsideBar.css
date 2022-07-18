@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+.adise-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  height: 650px;
+  min-height: 650px;
+  width: 150px;
+  max-width: 150px;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+  z-index: 1;
+  color: #1e1e1e;
+}
+
+.aside-nav {
+  width: 100%;
+  height: 100%;
+
+}
+
+.aside-ul {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+}
+
+.aside-ul a {
+  width: 100%;
+  height: 9.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0 0 9.8px 5px rgb(0 0 0 / 10%);
+  font-size: 1rem;
+  letter-spacing: .10em;
+}
+
+.aside-ul a:hover {
+  transition: 0.5s ease-in-out;
+  width: 180px;
+  transform: translateX(-10px);
+}
+
+.aside-ul a {
+  display: flex;
+  gap: 2%;
+}
+
+.aside-ul .aside-active {
+  /* background-color: #E5E4E2; */
+  background-color: rgb(245, 243, 243) 
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+
+.profile-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Assistant,sans-serif;
+  
+}
+
+.profile-page-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 60%;
+  margin-top: 150px
+
+}
+
+.ui.secondary.button.startConversation, .ui.secondary.button.editProfile {
+  display: flex;
+  gap: 5px;
+}
+.profile-avatar {
+  cursor: pointer;
+  position: relative;
+}
+
+.ProfileOnlineBadge {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+}
+
+.profile-edit-button, .send-msg-button {
+  height: 0;
+  transform: translate(-300px, -157px);
+}
+
+.profile-name h3 {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.profile-age-city h5 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.profile-bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
+} 
+
+.profile-about {
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profile-about p {
+  padding-left: 30px;
+}
+
+.profile-interests {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  font-weight: bold;
+}
+ 
+
+.bottom {
+  width: 100%;
+  height: 200px;
+}
+
+
+

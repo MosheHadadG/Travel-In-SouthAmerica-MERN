@@ -1,0 +1,26 @@
+.partners-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  
+}
+
+.partners-page-main {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  padding-right: 95px;
+  margin-top: 50px;
+}
+
+.partners-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2%;
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,52 @@
+@media(max-width: 1200px) {
+  .planning-board {
+    width: 90%;
+  }
+  .countries-in-plan {
+    grid-template-columns: repeat(4, 120px);
+  }
+
+}
+
+@media(max-width: 950px) {
+  .countries-in-plan {
+    grid-template-columns: repeat(4, 120px);
+  }
+
+}
+
+@media(max-width: 870px) {
+  .countries-in-plan {
+    grid-template-columns: repeat(4, 100px);
+  }
+
+  .countries-in-plan span {
+    font-size: 1.1rem;
+
+  }
+}
+
+
+@media(max-width: 600px) {
+  .countries-in-plan {
+    grid-template-columns: repeat(4, 80px);
+  }
+  .countries-in-plan span {
+    font-size: 0.8rem;
+  }
+
+  .country-in-plan {
+    height: 60px;
+  }
+  .countries-in-plan h3 {
+    font-size: 1.2rem;
+  } 
+}
+
+@media(max-width: 480px) {
+  .countries-in-plan {
+    grid-template-columns: repeat(3, 80px);
+    grid-column-gap: 50px;
+  }
+}
+

@@ -1,0 +1,13 @@
+@media(max-width: 700px) {
+  .register-form {
+    width: 90%;
+  }
+  .register-inputs {
+    width: 100%;
+  }
+
+  .register-inputs input {
+    width: 100%;
+  }
+
+}

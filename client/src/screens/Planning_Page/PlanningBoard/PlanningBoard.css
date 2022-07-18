@@ -1,0 +1,54 @@
+.planning-board {
+  width: 65%;
+  height: 400px;
+  background: url(../../../images/backgrounds/background-trip-page.jpg) center center/contain;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  text-shadow: 2px 2px white;
+}
+
+.countries-in-plan {
+  display: grid;
+  grid-template-columns: repeat(5, 110px);
+  grid-gap: 8%;
+}
+
+
+.countries-in-plan h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+.country-in-plan {
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+}
+
+.country-in-plan:hover {
+  filter: grayscale(60%);
+}
+
+
+.country-in-plan img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.country-in-plan .route-dashed-line {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

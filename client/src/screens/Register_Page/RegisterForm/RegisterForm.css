@@ -1,0 +1,90 @@
+.register-form {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 20%;
+}
+
+
+
+.register-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-inputs input  {
+  width: 250px;
+  height: 22px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.register-inputs input:focus {
+  outline: none; 
+  border: 2px solid #59815b;
+}
+
+
+.register-inputs select {
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.register-form button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background: #59815b;
+  color: #f4f4f4;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-style: none;
+}
+
+
+/* First name & Last name */
+
+.register-first-last-name {
+  display: flex;
+  gap: 10px;
+}
+
+/* Email && Password && Profile Img */
+.register-email, .register-password, .register-profile-img {
+  display: flex;
+  justify-content: center;
+}
+
+.register-email input, .register-password input {
+  width: 100%;
+}
+
+/* Age && city */
+
+.register-age-city {
+  display: flex;
+  gap: 10px;
+}
+
+/* .profile-img-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-preview {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #f4f4f4;
+
+} */
+/* Gender */
+
+.register-gender {
+  display: flex;
+  justify-content: center;
+}
+

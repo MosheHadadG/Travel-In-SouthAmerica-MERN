@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/lcf0fde.css");
+
+.attraction-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Assistant, sans-serif;
+
+}
+
+.attraction-page-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-top: 50px
+}
+
+.attraction-slider {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.attraction-bottom {
+  width: 100%;
+}
+
+.attraction-name {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.attraction-description.ui.segment {
+  width: 85%;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #878780;
+  margin-bottom: 50px;
+  text-align: left;
+  font-family: muli, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.attraction-like-to-know-title {
+  text-align: left;
+  font-size: 1.2rem;
+
+}
+
+.attraction-boxes-likes-to-know {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
