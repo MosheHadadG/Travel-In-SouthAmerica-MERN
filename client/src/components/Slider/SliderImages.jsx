@@ -1,9 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./SliderImages.css"
-import "./SliderImagesResponsive.css"
-
+import "./SliderImages.css";
+import "./SliderImagesResponsive.css";
 
 const settings = {
   dots: true,
@@ -16,21 +15,18 @@ const settings = {
 };
 
 function SliderImages({ images }) {
-
   const renderImages = () => {
     const renderedImage = images.map((image, idx) => {
-      return <div className="slider-item" key={idx}><img src={image} alt={`${idx} img`} /></div>
+      return (
+        <div className="slider-item" key={idx}>
+          <img src={image} alt={`${idx} img`} />
+        </div>
+      );
     });
     return renderedImage;
-  }
+  };
 
-  return (
-    <Slider {...settings}>
-      {renderImages()}
-    </Slider>
-
-  );
-
+  return <Slider {...settings}>{renderImages()}</Slider>;
 }
 
 export default SliderImages;

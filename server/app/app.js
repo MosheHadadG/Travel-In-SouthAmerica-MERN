@@ -9,14 +9,17 @@ import { attractionsRouter } from "./routes/attractions.route.js";
 
 export const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Welcome our to TISA API...");
+});
 
 app.use(cors());
 app.use(express.json());
-app.use(urlencoded({extended: true}));
-app.use('/uploads/avatars', express.static(path.join('uploads', 'avatars')))
+app.use(urlencoded({ extended: true }));
+app.use("/uploads/avatars", express.static(path.join("uploads", "avatars")));
 
-app.use('/users', usersRouter);
-app.use('/conversation', conversationsRouter);
-app.use('/messages', messagesRouter);
-app.use('/destinations', destinationsRouter);
-app.use('/attractions', attractionsRouter);
+app.use("/users", usersRouter);
+app.use("/conversation", conversationsRouter);
+app.use("/messages", messagesRouter);
+app.use("/destinations", destinationsRouter);
+app.use("/attractions", attractionsRouter);
